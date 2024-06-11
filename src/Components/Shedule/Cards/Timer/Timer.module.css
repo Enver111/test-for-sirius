@@ -1,0 +1,44 @@
+.timer {
+  width: 344px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+  gap: 32px;
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background: rgb(255, 241, 203);
+}
+.timer p {
+  color: rgb(50, 56, 84);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+.number {
+  color: rgb(50, 56, 84);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.number span {
+  color: rgb(50, 56, 84);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 135%;
+  margin: 0 12px 2px 4px;
+}
+.timer button {
+  width: 220px;
+  height: 48px;
+  border: 1px dashed rgb(50, 56, 84);
+  border-radius: 30px;
+  background-color: unset;
+  color: rgb(50, 56, 84);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+}

@@ -1,3 +1,16 @@
 .shedule {
-  max-width: 1440px;
+  width: 1440px;
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+  grid-template-rows: 66px;
+}
+.header {
+  grid-row: 1 / 2;
+}
+.aside {
+  grid-row: 1 / 3;
+  grid-column: 1/2;
+}
+.main_page {
+  grid-row: 2 / 3;
 }

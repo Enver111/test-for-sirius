@@ -1,0 +1,74 @@
+.aside {
+  width: 236px;
+  border-radius: 30px;
+  background: rgb(238, 238, 255);
+  margin-top: 24px;
+  padding: 44px 0 24px 0;
+}
+.logo {
+  margin: 0 44px 40px 44px;
+}
+.menu_list {
+  display: flex;
+  gap: 12px;
+  width: 216px;
+  box-sizing: border-box;
+  padding-left: 44px;
+  border-radius: 0px 30px 30px 0px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s ease-in-out;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(67, 75, 116);
+}
+.menu_list:hover {
+  background: rgb(141, 127, 199);
+  color: white;
+  font-weight: 700;
+}
+.menu_list_active {
+  background: rgb(141, 127, 199);
+  color: white;
+  font-weight: 700;
+}
+.menu_list p {
+  margin: 10px 0;
+}
+.advertising {
+  box-sizing: border-box;
+  margin: 50px 20px 0 20px;
+  padding: 16px 0 10px 16px;
+  border-radius: 15px;
+  background-color: rgb(253, 253, 255);
+  background-image: url(../../../libs/icon/aside/menu/present.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right -1.5vh bottom -3.5vh;
+}
+.advertising h2 {
+  margin: 0 0 4px 0;
+  color: rgb(50, 56, 84);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.advertising p {
+  margin: 0 0 10px 0;
+  color: rgb(50, 56, 84);
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+}
+.advertising button {
+  border-radius: 15px;
+  background: rgb(216, 236, 255);
+  border: unset;
+  width: 68px;
+  height: 32px;
+  color: rgb(50, 56, 84);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 135%;
+  cursor: pointer;
+}

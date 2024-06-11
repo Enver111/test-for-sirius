@@ -1,0 +1,28 @@
+.discount {
+  width: 526px;
+
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: rgb(115, 98, 188);
+  padding: 56px 0 46px 40px;
+  background-image: url(../../../../libs/icon/cards/discount.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left 25.1vh top 0vh;
+}
+.discount h1 {
+  width: 366px;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0;
+}
+.discount p {
+  width: 294px;
+  margin: 4px 0 0 0;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}

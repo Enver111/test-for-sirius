@@ -1,6 +1,35 @@
 .header {
   display: flex;
-  max-width: 1154px;
+  width: 1154px;
+  height: 68px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  /* xtra light violet */
+  border-bottom: 1px solid rgb(246, 246, 254);
+  border-radius: 0px 0px 20px 20px;
+
+  /* menu shadow */
+  box-shadow: 0px 2px 4px 0px rgba(143, 143, 183, 0.07),
+    0px 7px 7px 0px rgba(143, 143, 183, 0.06),
+    0px 15px 9px 0px rgba(143, 143, 183, 0.04),
+    0px 27px 11px 0px rgba(143, 143, 183, 0.01),
+    0px 42px 12px 0px rgba(143, 143, 183, 0);
+  /* bg */
+  background: rgb(253, 253, 255);
+}
+.greetings {
+  margin: auto 0 auto 32px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(50, 56, 84);
+}
+.greetings span {
+  color: rgb(115, 98, 188);
+}
+.wrap {
+  display: flex;
+  gap: 16px;
 }
 .section {
   width: 42px;
@@ -8,17 +37,34 @@
   border: 1px solid rgb(115, 98, 188);
   background: rgb(255, 255, 255);
   border-radius: 50%;
+  margin: auto;
+  position: relative;
 }
 .circle {
   position: absolute;
+  top: -3px;
+  left: 29px;
 }
 .mail {
   display: block;
   width: 42px;
   height: 42px;
-  margin-top: 8px;
   text-align: center;
 }
+.mail img {
+  margin: 7px 0 0 0;
+}
 
-.mail_icon {
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.user a:last-child {
+  text-decoration: none;
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: auto 50px auto 0;
 }
