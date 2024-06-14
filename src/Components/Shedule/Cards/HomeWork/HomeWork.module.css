@@ -1,3 +1,8 @@
+.home_work {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .work,
 .reports {
   display: flex;
@@ -8,7 +13,6 @@
   padding: 16px 12px 12px 16px;
   background: rgb(216, 236, 255);
   box-sizing: border-box;
-  margin-bottom: 20px;
 }
 .work h1,
 .reports h1 {

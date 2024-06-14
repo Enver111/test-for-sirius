@@ -1,0 +1,141 @@
+.upcoming_lessons {
+  width: 708px;
+  height: 372px;
+  box-sizing: border-box;
+  border: 1px solid rgb(115, 98, 188);
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 28px 0 30px 28px;
+}
+.upcoming_lessons h1 {
+  margin: 0 0 12px 0;
+  color: rgb(50, 56, 84);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.list {
+  height: 194px;
+  padding-right: 28px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.date {
+  width: 42px;
+  color: rgb(50, 56, 84);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  text-align: center;
+}
+.date span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 135%;
+}
+.classes {
+  display: flex;
+  justify-content: space-between;
+  height: 59px;
+  border-bottom: 1px solid rgb(238, 238, 255);
+  padding: 4px 0 4px 0;
+}
+.section {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.section:nth-child(3) {
+  gap: 4px;
+}
+.les_name {
+  color: rgb(50, 56, 84);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  margin: auto 0;
+  width: 180px;
+}
+.time {
+  color: rgb(50, 56, 84);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 135%;
+  margin: auto;
+}
+.teach {
+  margin: auto;
+  display: flex;
+  gap: 2px;
+}
+.teach p {
+  color: rgb(50, 56, 84);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  margin: auto 0;
+}
+.section button {
+  width: 56px;
+  height: 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(238, 238, 255);
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  color: rgb(50, 56, 84);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 135%;
+  cursor: pointer;
+}
+.section button:last-child {
+  background: rgb(141, 127, 199);
+  color: rgb(255, 255, 255);
+}
+.section button:hover {
+  border: 1px solid rgb(141, 127, 199);
+}
+.list::-webkit-scrollbar {
+  width: 4px;
+  cursor: pointer;
+}
+
+.list::-webkit-scrollbar-track {
+  background: white;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: rgb(238, 238, 255);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+  background: rgb(224, 224, 255);
+}
+.btn {
+  margin-top: 38px;
+  width: 344px;
+  height: 40px;
+  border: unset;
+  padding: 0;
+  border-radius: 30px;
+  background: rgb(222, 207, 255);
+  color: rgb(50, 56, 84);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  cursor: pointer;
+}
+.button {
+  margin: 0 auto;
+  text-align: center;
+}
+.btn:hover {
+  border: 1px solid rgb(141, 127, 199);
+}

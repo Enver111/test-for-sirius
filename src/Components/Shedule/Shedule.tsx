@@ -19,7 +19,7 @@ const Shedule = () => {
         <Aside handleClick={handleClick} activeItemId={activeItemId} />
       </div>
       <div className={s.main_page}>
-        <MainPage />
+        <MainPage activeItemId={activeItemId} />
       </div>
     </div>
   );
