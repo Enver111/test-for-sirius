@@ -1,8 +1,10 @@
-main {
+.main_block {
   width: 1154px;
-  box-sizing: border-box;
-  padding: 20px 0 0 32px;
+
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+.main_shedule {
+  box-sizing: border-box;
 }

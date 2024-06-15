@@ -5,6 +5,8 @@ import Discount from '../Cards/Discount/Discount';
 import HomeWork from '../Cards/HomeWork/HomeWork';
 import BalanceOfActivities from '../Cards/BalanceOfActivities/BalanceOfActivities';
 import UpcomingLessons from '../Cards/UpcomingLessons/UpcomingLessons';
+import CalendarHead from '../Calendar/CalendarHead/CalendarHead';
+import Calendar from '../Calendar/Calendar';
 
 const MainPage = ({ activeItemId }: { activeItemId: number | null }) => {
   const SheduleBloks = (
@@ -17,15 +19,16 @@ const MainPage = ({ activeItemId }: { activeItemId: number | null }) => {
     </>
   );
   const Shedule = (
-    <main className={s.main_block}>
-      <h1>Enver</h1>
+    <main className={s.main_shedule}>
+      <CalendarHead />
+      <Calendar />
     </main>
   );
   switch (activeItemId) {
     case 1:
       return <main className={s.main_block}>{SheduleBloks}</main>;
     case 2:
-      return Shedule;
+      return <main className={s.main_shedule}>{Shedule}</main>;
     default:
       return <main>Error</main>;
   }

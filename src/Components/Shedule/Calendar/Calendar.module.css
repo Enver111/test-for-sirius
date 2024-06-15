@@ -1,0 +1,26 @@
+.week_days_header {
+  display: flex;
+}
+.week_day_header {
+  width: 153.14px;
+  text-align: right;
+  padding-right: 6px;
+  padding: 2px 6px 2px 0;
+  color: rgb(121, 116, 127);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 135%;
+}
+.week_row {
+  display: flex;
+}
+.day_block {
+  width: 153.14px;
+  height: 101px;
+  text-align: right;
+  padding: 4px;
+}
+.empty_day_block {
+  display: flex;
+  cursor: pointer;
+}

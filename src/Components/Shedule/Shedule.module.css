@@ -5,6 +5,7 @@
   grid-template-rows: 66px;
 }
 .header {
+  width: 1154px;
   grid-row: 1 / 2;
 }
 .aside {
@@ -12,5 +13,8 @@
   grid-column: 1/2;
 }
 .main_page {
+  width: 1154px;
+  padding: 20px 50px 0 32px;
+  box-sizing: border-box;
   grid-row: 2 / 3;
 }
